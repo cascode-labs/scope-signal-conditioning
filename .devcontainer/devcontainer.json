@@ -14,7 +14,7 @@
 	"containerEnv": {
 		// Sets the display variable to use x-forwarding to enable graphical apps
 		//"DISPLAY": "host.docker.internal:0.0" // Windows OS
-		//"DISPLAY": "docker.for.mac.host.internal:0" // MAC OS
+		"DISPLAY": "docker.for.mac.host.internal:0" // MAC OS
 	},
 	// 👇 Configure tool-specific properties.
 	// "customizations": {},
